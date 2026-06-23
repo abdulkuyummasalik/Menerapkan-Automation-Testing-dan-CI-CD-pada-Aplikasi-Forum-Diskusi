@@ -107,3 +107,4 @@ describe('threadsSlice reducer', () => {
     expect(nextState.threads[0].downVotesBy).not.toContain('user-1');
   });
 });
+
