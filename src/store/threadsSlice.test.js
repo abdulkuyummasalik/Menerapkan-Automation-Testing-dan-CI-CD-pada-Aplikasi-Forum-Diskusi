@@ -106,8 +106,4 @@ describe('threadsSlice reducer', () => {
     expect(nextState.threads[0].upVotesBy).not.toContain('user-1');
     expect(nextState.threads[0].downVotesBy).not.toContain('user-1');
   });
-
-  it('should fail intentionally for CI screenshot', () => {
-    expect(1 + 1).toBe(3);
-  });
 });
